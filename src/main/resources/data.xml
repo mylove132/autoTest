@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <testLogin>
+        <phone>17621763856</phone>
+        <password>123456a</password>
+    </testLogin>
+
+    <TestBabyPage>
+        <englishName>gank</englishName>
+        <chineseName>华山</chineseName>
+        <userName>黄山</userName>
+    </TestBabyPage>
+</data>

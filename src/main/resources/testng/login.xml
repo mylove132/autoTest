@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="5" >
+        <listeners>
+            <listener class-name="com.xdf.bling.qa.listener.TestngListener"></listener>
+        </listeners>
+        <test name="emulator-5554" >
+            <parameter name="port" value="4567"></parameter>
+            <parameter name="udid" value="CLB0219309002436"></parameter>
+            <classes>
+                <class name="com.xdf.bling.qa.controller.login.LoginCrontroller" />
+            </classes>
+        </test>
+</suite>
